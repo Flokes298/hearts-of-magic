@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "hearts-of-magic",
+	"version": "${version}",
+	"name": "Hearts of Magic",
+	"description": "Gives Exploration and underused items a new purpose by adding Magic Hearts, that are required to open the end portal and form the base of a new magic system",
+	"authors": [
+		"Flokes_"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/hearts-of-magic/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.flokes.heartsofmagic.HeartsOfMagic"
+		],
+		"client": [
+			"net.flokes.heartsofmagic.HeartsOfMagicClient"
+		],
+		"fabric-datagen": [
+			"net.flokes.heartsofmagic.HeartsOfMagicDataGenerator"
+		]
+	},
+	"mixins": [
+		"hearts-of-magic.mixins.json",
+		{
+			"config": "hearts-of-magic.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21.8",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
