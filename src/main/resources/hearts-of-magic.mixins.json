@@ -3,7 +3,8 @@
 	"package": "net.flokes.heartsofmagic.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+		"ExampleMixin",
+        "ItemsMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

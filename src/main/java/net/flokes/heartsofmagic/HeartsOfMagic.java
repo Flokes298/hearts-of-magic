@@ -2,6 +2,8 @@ package net.flokes.heartsofmagic;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.flokes.heartsofmagic.block.ModBlocks;
+import net.flokes.heartsofmagic.component.ModComponents;
 import net.flokes.heartsofmagic.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -22,6 +24,8 @@ public class HeartsOfMagic implements ModInitializer {
 
 		LOGGER.info("Loading Hearts of Magic Mod");
 
+        ModComponents.initialize();
         ModItems.initialize();
+        ModBlocks.initialize();
 	}
 }
