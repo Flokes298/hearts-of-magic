@@ -1,8 +1,6 @@
 package net.flokes.heartsofmagic.mixin;
 
-import net.flokes.heartsofmagic.component.ModComponents;
 import net.flokes.heartsofmagic.item.HeartItem;
-import net.flokes.heartsofmagic.util.PortalFrameSlottable;
 import net.minecraft.item.Item;
 import net.minecraft.item.Items;
 import org.spongepowered.asm.mixin.Mixin;
@@ -19,7 +17,8 @@ public abstract class ItemsMixin {
             cir.setReturnValue(Items.register(
                     id,
                     HeartItem::new,
-                    settings.component(ModComponents.PORTAL_FRAME_SLOTTABLE_COMPONENT, PortalFrameSlottable.HEART_OF_THE_SEA)));
+                    settings
+            ));
         }
     }
 }

@@ -8,6 +8,10 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModComponents {
+
+    /**
+     * OBSOLETE (Frame checks for item itself not this component)
+     */
     public static final ComponentType<PortalFrameSlottable> PORTAL_FRAME_SLOTTABLE_COMPONENT = Registry.register(
             Registries.DATA_COMPONENT_TYPE,
             Identifier.of(HeartsOfMagic.MOD_ID, "portal_frame_slottable_component"),

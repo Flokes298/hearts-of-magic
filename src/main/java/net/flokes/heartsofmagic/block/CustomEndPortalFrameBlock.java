@@ -1,7 +1,6 @@
 package net.flokes.heartsofmagic.block;
 
 import com.google.common.base.Predicates;
-import net.flokes.heartsofmagic.component.ModComponents;
 import net.flokes.heartsofmagic.util.PortalFrameSlottable;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
@@ -30,7 +29,7 @@ public class CustomEndPortalFrameBlock extends EndPortalFrameBlock {
 
     public CustomEndPortalFrameBlock(Settings settings) {
         super(settings);
-        setDefaultState(getDefaultState().with(SLOT_TAKES, PortalFrameSlottable.HEART_OF_THE_SEA));
+        setDefaultState(getDefaultState().with(SLOT_TAKES, PortalFrameSlottable.HEART_OF_THE_NETHER));
     }
 
     @Override
@@ -79,8 +78,8 @@ public class CustomEndPortalFrameBlock extends EndPortalFrameBlock {
     public ActionResult onUseWithItem(ItemStack stack, BlockState blockState, World world, BlockPos blockPos, PlayerEntity player, Hand hand, BlockHitResult hit) {
         if (!blockState.isOf(ModBlocks.CUSTOM_END_PORTAL_FRAME)
                 || blockState.get(CustomEndPortalFrameBlock.EYE)
-                // Check if Item's SLOTTABLE Component matches CustomPortalFrameBlock's SLOT_TAKES Property
-                || blockState.get(CustomEndPortalFrameBlock.SLOT_TAKES) != stack.get(ModComponents.PORTAL_FRAME_SLOTTABLE_COMPONENT)) {
+                // Check if CustomPortalFrameBlock's SLOT_TAKES Property matches used Item
+                || blockState.get(CustomEndPortalFrameBlock.SLOT_TAKES).item() != stack.getItem()) {
             return ActionResult.PASS;
         } else if (world.isClient) {
             return ActionResult.SUCCESS;
