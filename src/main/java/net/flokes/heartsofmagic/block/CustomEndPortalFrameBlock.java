@@ -10,10 +10,14 @@ import net.minecraft.block.pattern.BlockPattern;
 import net.minecraft.block.pattern.BlockPatternBuilder;
 import net.minecraft.block.pattern.CachedBlockPosition;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
 import net.minecraft.predicate.block.BlockStatePredicate;
+import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.EnumProperty;
+import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;
 import net.minecraft.util.hit.BlockHitResult;
@@ -74,15 +78,31 @@ public class CustomEndPortalFrameBlock extends EndPortalFrameBlock {
         return CUSTOM_COMPLETED_FRAME;
     }
 
+    public void sendRequiresHeartMessage(PlayerEntity player, Item heart) {
+        Text message = Text.translatable("block.hearts-of-magic.custom_end_portal_frame.message", Text.translatable(heart.getTranslationKey()));
+        ((ServerPlayerEntity)player).sendMessageToClient(message, true);
+    }
+
     @Override
     public ActionResult onUseWithItem(ItemStack stack, BlockState blockState, World world, BlockPos blockPos, PlayerEntity player, Hand hand, BlockHitResult hit) {
+        boolean usedEnderEye = false;
         if (!blockState.isOf(ModBlocks.CUSTOM_END_PORTAL_FRAME)
                 || blockState.get(CustomEndPortalFrameBlock.EYE)
-                // Check if CustomPortalFrameBlock's SLOT_TAKES Property matches used Item
-                || blockState.get(CustomEndPortalFrameBlock.SLOT_TAKES).item() != stack.getItem()) {
+        ) {
             return ActionResult.PASS;
-        } else if (world.isClient) {
+        }
+        // Check if CustomPortalFrameBlock's SLOT_TAKES Property matches used Item
+        if (blockState.get(CustomEndPortalFrameBlock.SLOT_TAKES).item() != stack.getItem()) {
+            // Check special Eye of Ender case
+            if (!stack.getItem().equals(Items.ENDER_EYE)) {
+                return ActionResult.PASS;
+            }
+            usedEnderEye = true;
+        }
+        if (world.isClient) {
             return ActionResult.SUCCESS;
+        } else if (usedEnderEye) {
+            sendRequiresHeartMessage(player, blockState.get(CustomEndPortalFrameBlock.SLOT_TAKES).item());
         } else {
             BlockState blockState2 = blockState.with(CustomEndPortalFrameBlock.EYE, true);
             Block.pushEntitiesUpBeforeBlockChange(blockState, blockState2, world, blockPos);
@@ -104,8 +124,8 @@ public class CustomEndPortalFrameBlock extends EndPortalFrameBlock {
 
                 world.syncGlobalEvent(WorldEvents.END_PORTAL_OPENED, blockPos2.add(1, 0, 1), 0);
             }
-
-            return ActionResult.SUCCESS;
         }
+
+        return ActionResult.SUCCESS;
     }
 }

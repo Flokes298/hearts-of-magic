@@ -1,0 +1,17 @@
+{
+  "block.hearts-of-magic.custom_end_portal_frame": "Heart End Portal Frame",
+  "block.hearts-of-magic.custom_end_portal_frame.message": "Requires a %s",
+  "item.hearts-of-magic.heart_of_gold": "Heart of Gold",
+  "item.hearts-of-magic.heart_of_ice": "Heart of Ice",
+  "item.hearts-of-magic.heart_of_light": "Heart of Light",
+  "item.hearts-of-magic.heart_of_the_deep": "Heart of the Deep",
+  "item.hearts-of-magic.heart_of_the_desert": "Heart of the Desert",
+  "item.hearts-of-magic.heart_of_the_forest": "Heart of the Forest",
+  "item.hearts-of-magic.heart_of_the_machine": "Heart of the Machine",
+  "item.hearts-of-magic.heart_of_the_mountain": "Heart of the Mountain",
+  "item.hearts-of-magic.heart_of_the_nether": "Heart of the Nether",
+  "item.hearts-of-magic.heart_of_the_storm": "Heart of the Storm",
+  "item.hearts-of-magic.heart_of_the_swamp": "Heart of the Swamp",
+  "item.hearts-of-magic.spellheart": "Spellheart",
+  "itemGroup.hearts_of_magic": "Hearts of Magic"
+}
