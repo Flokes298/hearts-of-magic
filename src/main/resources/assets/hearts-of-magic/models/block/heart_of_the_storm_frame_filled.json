@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:block/end_portal_frame_filled",
+  "textures": {
+    "particle": "hearts-of-magic:block/heart_of_the_storm_frame_side",
+    "bottom": "minecraft:block/end_stone",
+    "top": "hearts-of-magic:block/heart_of_the_storm_frame_top",
+    "side": "hearts-of-magic:block/heart_of_the_storm_frame_side",
+    "eye": "hearts-of-magic:block/heart_of_the_storm_frame_heart"
+  }
+}

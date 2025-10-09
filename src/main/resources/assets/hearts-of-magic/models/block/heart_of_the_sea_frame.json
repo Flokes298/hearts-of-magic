@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/end_portal_frame",
+  "textures": {
+    "particle": "hearts-of-magic:block/heart_of_the_sea_frame_side",
+    "bottom": "minecraft:block/end_stone",
+    "top": "hearts-of-magic:block/heart_of_the_sea_frame_top",
+    "side": "hearts-of-magic:block/heart_of_the_sea_frame_side"
+  }
+}

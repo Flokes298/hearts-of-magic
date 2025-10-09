@@ -1,0 +1,364 @@
+{
+  "variants": {
+    "eye=false,facing=east,slot_takes=heart_of_the_nether": {
+      "model": "hearts-of-magic:block/heart_of_the_nether_frame",
+      "y": 270
+    },
+    "eye=false,facing=north,slot_takes=heart_of_the_nether": {
+      "model": "hearts-of-magic:block/heart_of_the_nether_frame",
+      "y": 180
+    },
+    "eye=false,facing=south,slot_takes=heart_of_the_nether": {
+      "model": "hearts-of-magic:block/heart_of_the_nether_frame"
+    },
+    "eye=false,facing=west,slot_takes=heart_of_the_nether": {
+      "model": "hearts-of-magic:block/heart_of_the_nether_frame",
+      "y": 90
+    },
+    "eye=true,facing=east,slot_takes=heart_of_the_nether": {
+      "model": "hearts-of-magic:block/heart_of_the_nether_frame_filled",
+      "y": 270
+    },
+    "eye=true,facing=north,slot_takes=heart_of_the_nether": {
+      "model": "hearts-of-magic:block/heart_of_the_nether_frame_filled",
+      "y": 180
+    },
+    "eye=true,facing=south,slot_takes=heart_of_the_nether": {
+      "model": "hearts-of-magic:block/heart_of_the_nether_frame_filled"
+    },
+    "eye=true,facing=west,slot_takes=heart_of_the_nether": {
+      "model": "hearts-of-magic:block/heart_of_the_nether_frame_filled",
+      "y": 90
+    },
+    "eye=false,facing=east,slot_takes=heart_of_the_sea": {
+      "model": "hearts-of-magic:block/heart_of_the_sea_frame",
+      "y": 270
+    },
+    "eye=false,facing=north,slot_takes=heart_of_the_sea": {
+      "model": "hearts-of-magic:block/heart_of_the_sea_frame",
+      "y": 180
+    },
+    "eye=false,facing=south,slot_takes=heart_of_the_sea": {
+      "model": "hearts-of-magic:block/heart_of_the_sea_frame"
+    },
+    "eye=false,facing=west,slot_takes=heart_of_the_sea": {
+      "model": "hearts-of-magic:block/heart_of_the_sea_frame",
+      "y": 90
+    },
+    "eye=true,facing=east,slot_takes=heart_of_the_sea": {
+      "model": "hearts-of-magic:block/heart_of_the_sea_frame_filled",
+      "y": 270
+    },
+    "eye=true,facing=north,slot_takes=heart_of_the_sea": {
+      "model": "hearts-of-magic:block/heart_of_the_sea_frame_filled",
+      "y": 180
+    },
+    "eye=true,facing=south,slot_takes=heart_of_the_sea": {
+      "model": "hearts-of-magic:block/heart_of_the_sea_frame_filled"
+    },
+    "eye=true,facing=west,slot_takes=heart_of_the_sea": {
+      "model": "hearts-of-magic:block/heart_of_the_sea_frame_filled",
+      "y": 90
+    },
+    "eye=false,facing=east,slot_takes=heart_of_the_mountain": {
+      "model": "hearts-of-magic:block/heart_of_the_mountain_frame",
+      "y": 270
+    },
+    "eye=false,facing=north,slot_takes=heart_of_the_mountain": {
+      "model": "hearts-of-magic:block/heart_of_the_mountain_frame",
+      "y": 180
+    },
+    "eye=false,facing=south,slot_takes=heart_of_the_mountain": {
+      "model": "hearts-of-magic:block/heart_of_the_mountain_frame"
+    },
+    "eye=false,facing=west,slot_takes=heart_of_the_mountain": {
+      "model": "hearts-of-magic:block/heart_of_the_mountain_frame",
+      "y": 90
+    },
+    "eye=true,facing=east,slot_takes=heart_of_the_mountain": {
+      "model": "hearts-of-magic:block/heart_of_the_mountain_frame_filled",
+      "y": 270
+    },
+    "eye=true,facing=north,slot_takes=heart_of_the_mountain": {
+      "model": "hearts-of-magic:block/heart_of_the_mountain_frame_filled",
+      "y": 180
+    },
+    "eye=true,facing=south,slot_takes=heart_of_the_mountain": {
+      "model": "hearts-of-magic:block/heart_of_the_mountain_frame_filled"
+    },
+    "eye=true,facing=west,slot_takes=heart_of_the_mountain": {
+      "model": "hearts-of-magic:block/heart_of_the_mountain_frame_filled",
+      "y": 90
+    },
+    "eye=false,facing=east,slot_takes=heart_of_the_storm": {
+      "model": "hearts-of-magic:block/heart_of_the_storm_frame",
+      "y": 270
+    },
+    "eye=false,facing=north,slot_takes=heart_of_the_storm": {
+      "model": "hearts-of-magic:block/heart_of_the_storm_frame",
+      "y": 180
+    },
+    "eye=false,facing=south,slot_takes=heart_of_the_storm": {
+      "model": "hearts-of-magic:block/heart_of_the_storm_frame"
+    },
+    "eye=false,facing=west,slot_takes=heart_of_the_storm": {
+      "model": "hearts-of-magic:block/heart_of_the_storm_frame",
+      "y": 90
+    },
+    "eye=true,facing=east,slot_takes=heart_of_the_storm": {
+      "model": "hearts-of-magic:block/heart_of_the_storm_frame_filled",
+      "y": 270
+    },
+    "eye=true,facing=north,slot_takes=heart_of_the_storm": {
+      "model": "hearts-of-magic:block/heart_of_the_storm_frame_filled",
+      "y": 180
+    },
+    "eye=true,facing=south,slot_takes=heart_of_the_storm": {
+      "model": "hearts-of-magic:block/heart_of_the_storm_frame_filled"
+    },
+    "eye=true,facing=west,slot_takes=heart_of_the_storm": {
+      "model": "hearts-of-magic:block/heart_of_the_storm_frame_filled",
+      "y": 90
+    },
+    "eye=false,facing=east,slot_takes=heart_of_the_forest": {
+      "model": "hearts-of-magic:block/heart_of_the_forest_frame",
+      "y": 270
+    },
+    "eye=false,facing=north,slot_takes=heart_of_the_forest": {
+      "model": "hearts-of-magic:block/heart_of_the_forest_frame",
+      "y": 180
+    },
+    "eye=false,facing=south,slot_takes=heart_of_the_forest": {
+      "model": "hearts-of-magic:block/heart_of_the_forest_frame"
+    },
+    "eye=false,facing=west,slot_takes=heart_of_the_forest": {
+      "model": "hearts-of-magic:block/heart_of_the_forest_frame",
+      "y": 90
+    },
+    "eye=true,facing=east,slot_takes=heart_of_the_forest": {
+      "model": "hearts-of-magic:block/heart_of_the_forest_frame_filled",
+      "y": 270
+    },
+    "eye=true,facing=north,slot_takes=heart_of_the_forest": {
+      "model": "hearts-of-magic:block/heart_of_the_forest_frame_filled",
+      "y": 180
+    },
+    "eye=true,facing=south,slot_takes=heart_of_the_forest": {
+      "model": "hearts-of-magic:block/heart_of_the_forest_frame_filled"
+    },
+    "eye=true,facing=west,slot_takes=heart_of_the_forest": {
+      "model": "hearts-of-magic:block/heart_of_the_forest_frame_filled",
+      "y": 90
+    },
+    "eye=false,facing=east,slot_takes=heart_of_the_desert": {
+      "model": "hearts-of-magic:block/heart_of_the_desert_frame",
+      "y": 270
+    },
+    "eye=false,facing=north,slot_takes=heart_of_the_desert": {
+      "model": "hearts-of-magic:block/heart_of_the_desert_frame",
+      "y": 180
+    },
+    "eye=false,facing=south,slot_takes=heart_of_the_desert": {
+      "model": "hearts-of-magic:block/heart_of_the_desert_frame"
+    },
+    "eye=false,facing=west,slot_takes=heart_of_the_desert": {
+      "model": "hearts-of-magic:block/heart_of_the_desert_frame",
+      "y": 90
+    },
+    "eye=true,facing=east,slot_takes=heart_of_the_desert": {
+      "model": "hearts-of-magic:block/heart_of_the_desert_frame_filled",
+      "y": 270
+    },
+    "eye=true,facing=north,slot_takes=heart_of_the_desert": {
+      "model": "hearts-of-magic:block/heart_of_the_desert_frame_filled",
+      "y": 180
+    },
+    "eye=true,facing=south,slot_takes=heart_of_the_desert": {
+      "model": "hearts-of-magic:block/heart_of_the_desert_frame_filled"
+    },
+    "eye=true,facing=west,slot_takes=heart_of_the_desert": {
+      "model": "hearts-of-magic:block/heart_of_the_desert_frame_filled",
+      "y": 90
+    },
+    "eye=false,facing=east,slot_takes=heart_of_the_swamp": {
+      "model": "hearts-of-magic:block/heart_of_the_swamp_frame",
+      "y": 270
+    },
+    "eye=false,facing=north,slot_takes=heart_of_the_swamp": {
+      "model": "hearts-of-magic:block/heart_of_the_swamp_frame",
+      "y": 180
+    },
+    "eye=false,facing=south,slot_takes=heart_of_the_swamp": {
+      "model": "hearts-of-magic:block/heart_of_the_swamp_frame"
+    },
+    "eye=false,facing=west,slot_takes=heart_of_the_swamp": {
+      "model": "hearts-of-magic:block/heart_of_the_swamp_frame",
+      "y": 90
+    },
+    "eye=true,facing=east,slot_takes=heart_of_the_swamp": {
+      "model": "hearts-of-magic:block/heart_of_the_swamp_frame_filled",
+      "y": 270
+    },
+    "eye=true,facing=north,slot_takes=heart_of_the_swamp": {
+      "model": "hearts-of-magic:block/heart_of_the_swamp_frame_filled",
+      "y": 180
+    },
+    "eye=true,facing=south,slot_takes=heart_of_the_swamp": {
+      "model": "hearts-of-magic:block/heart_of_the_swamp_frame_filled"
+    },
+    "eye=true,facing=west,slot_takes=heart_of_the_swamp": {
+      "model": "hearts-of-magic:block/heart_of_the_swamp_frame_filled",
+      "y": 90
+    },
+    "eye=false,facing=east,slot_takes=heart_of_ice": {
+      "model": "hearts-of-magic:block/heart_of_ice_frame",
+      "y": 270
+    },
+    "eye=false,facing=north,slot_takes=heart_of_ice": {
+      "model": "hearts-of-magic:block/heart_of_ice_frame",
+      "y": 180
+    },
+    "eye=false,facing=south,slot_takes=heart_of_ice": {
+      "model": "hearts-of-magic:block/heart_of_ice_frame"
+    },
+    "eye=false,facing=west,slot_takes=heart_of_ice": {
+      "model": "hearts-of-magic:block/heart_of_ice_frame",
+      "y": 90
+    },
+    "eye=true,facing=east,slot_takes=heart_of_ice": {
+      "model": "hearts-of-magic:block/heart_of_ice_frame_filled",
+      "y": 270
+    },
+    "eye=true,facing=north,slot_takes=heart_of_ice": {
+      "model": "hearts-of-magic:block/heart_of_ice_frame_filled",
+      "y": 180
+    },
+    "eye=true,facing=south,slot_takes=heart_of_ice": {
+      "model": "hearts-of-magic:block/heart_of_ice_frame_filled"
+    },
+    "eye=true,facing=west,slot_takes=heart_of_ice": {
+      "model": "hearts-of-magic:block/heart_of_ice_frame_filled",
+      "y": 90
+    },
+    "eye=false,facing=east,slot_takes=heart_of_the_deep": {
+      "model": "hearts-of-magic:block/heart_of_the_deep_frame",
+      "y": 270
+    },
+    "eye=false,facing=north,slot_takes=heart_of_the_deep": {
+      "model": "hearts-of-magic:block/heart_of_the_deep_frame",
+      "y": 180
+    },
+    "eye=false,facing=south,slot_takes=heart_of_the_deep": {
+      "model": "hearts-of-magic:block/heart_of_the_deep_frame"
+    },
+    "eye=false,facing=west,slot_takes=heart_of_the_deep": {
+      "model": "hearts-of-magic:block/heart_of_the_deep_frame",
+      "y": 90
+    },
+    "eye=true,facing=east,slot_takes=heart_of_the_deep": {
+      "model": "hearts-of-magic:block/heart_of_the_deep_frame_filled",
+      "y": 270
+    },
+    "eye=true,facing=north,slot_takes=heart_of_the_deep": {
+      "model": "hearts-of-magic:block/heart_of_the_deep_frame_filled",
+      "y": 180
+    },
+    "eye=true,facing=south,slot_takes=heart_of_the_deep": {
+      "model": "hearts-of-magic:block/heart_of_the_deep_frame_filled"
+    },
+    "eye=true,facing=west,slot_takes=heart_of_the_deep": {
+      "model": "hearts-of-magic:block/heart_of_the_deep_frame_filled",
+      "y": 90
+    },
+    "eye=false,facing=east,slot_takes=heart_of_light": {
+      "model": "hearts-of-magic:block/heart_of_light_frame",
+      "y": 270
+    },
+    "eye=false,facing=north,slot_takes=heart_of_light": {
+      "model": "hearts-of-magic:block/heart_of_light_frame",
+      "y": 180
+    },
+    "eye=false,facing=south,slot_takes=heart_of_light": {
+      "model": "hearts-of-magic:block/heart_of_light_frame"
+    },
+    "eye=false,facing=west,slot_takes=heart_of_light": {
+      "model": "hearts-of-magic:block/heart_of_light_frame",
+      "y": 90
+    },
+    "eye=true,facing=east,slot_takes=heart_of_light": {
+      "model": "hearts-of-magic:block/heart_of_light_frame_filled",
+      "y": 270
+    },
+    "eye=true,facing=north,slot_takes=heart_of_light": {
+      "model": "hearts-of-magic:block/heart_of_light_frame_filled",
+      "y": 180
+    },
+    "eye=true,facing=south,slot_takes=heart_of_light": {
+      "model": "hearts-of-magic:block/heart_of_light_frame_filled"
+    },
+    "eye=true,facing=west,slot_takes=heart_of_light": {
+      "model": "hearts-of-magic:block/heart_of_light_frame_filled",
+      "y": 90
+    },
+    "eye=false,facing=east,slot_takes=heart_of_gold": {
+      "model": "hearts-of-magic:block/heart_of_gold_frame",
+      "y": 270
+    },
+    "eye=false,facing=north,slot_takes=heart_of_gold": {
+      "model": "hearts-of-magic:block/heart_of_gold_frame",
+      "y": 180
+    },
+    "eye=false,facing=south,slot_takes=heart_of_gold": {
+      "model": "hearts-of-magic:block/heart_of_gold_frame"
+    },
+    "eye=false,facing=west,slot_takes=heart_of_gold": {
+      "model": "hearts-of-magic:block/heart_of_gold_frame",
+      "y": 90
+    },
+    "eye=true,facing=east,slot_takes=heart_of_gold": {
+      "model": "hearts-of-magic:block/heart_of_gold_frame_filled",
+      "y": 270
+    },
+    "eye=true,facing=north,slot_takes=heart_of_gold": {
+      "model": "hearts-of-magic:block/heart_of_gold_frame_filled",
+      "y": 180
+    },
+    "eye=true,facing=south,slot_takes=heart_of_gold": {
+      "model": "hearts-of-magic:block/heart_of_gold_frame_filled"
+    },
+    "eye=true,facing=west,slot_takes=heart_of_gold": {
+      "model": "hearts-of-magic:block/heart_of_gold_frame_filled",
+      "y": 90
+    },
+    "eye=false,facing=east,slot_takes=heart_of_the_machine": {
+      "model": "hearts-of-magic:block/heart_of_the_machine_frame",
+      "y": 270
+    },
+    "eye=false,facing=north,slot_takes=heart_of_the_machine": {
+      "model": "hearts-of-magic:block/heart_of_the_machine_frame",
+      "y": 180
+    },
+    "eye=false,facing=south,slot_takes=heart_of_the_machine": {
+      "model": "hearts-of-magic:block/heart_of_the_machine_frame"
+    },
+    "eye=false,facing=west,slot_takes=heart_of_the_machine": {
+      "model": "hearts-of-magic:block/heart_of_the_machine_frame",
+      "y": 90
+    },
+    "eye=true,facing=east,slot_takes=heart_of_the_machine": {
+      "model": "hearts-of-magic:block/heart_of_the_machine_frame_filled",
+      "y": 270
+    },
+    "eye=true,facing=north,slot_takes=heart_of_the_machine": {
+      "model": "hearts-of-magic:block/heart_of_the_machine_frame_filled",
+      "y": 180
+    },
+    "eye=true,facing=south,slot_takes=heart_of_the_machine": {
+      "model": "hearts-of-magic:block/heart_of_the_machine_frame_filled"
+    },
+    "eye=true,facing=west,slot_takes=heart_of_the_machine": {
+      "model": "hearts-of-magic:block/heart_of_the_machine_frame_filled",
+      "y": 90
+    }
+  }
+}
