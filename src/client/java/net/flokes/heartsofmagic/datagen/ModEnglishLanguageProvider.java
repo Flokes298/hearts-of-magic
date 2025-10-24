@@ -29,8 +29,11 @@ public class ModEnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.HEART_OF_LIGHT, "Heart of Light");
         translationBuilder.add(ModItems.HEART_OF_GOLD, "Heart of Gold");
         translationBuilder.add(ModItems.HEART_OF_THE_MACHINE, "Heart of the Machine");
+        translationBuilder.add(ModItems.BAG_OF_HOLDING, "Bag of Holding");
 
         translationBuilder.add(ModBlocks.CUSTOM_END_PORTAL_FRAME, "Heart End Portal Frame");
+
+        translationBuilder.add("container.bag_of_holding", "Bag of Holding");
 
         translationBuilder.add("block.hearts-of-magic.custom_end_portal_frame.message", "Requires a %s");
     }

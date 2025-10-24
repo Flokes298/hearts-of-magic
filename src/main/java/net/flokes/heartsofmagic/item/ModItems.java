@@ -3,6 +3,8 @@ package net.flokes.heartsofmagic.item;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.flokes.heartsofmagic.HeartsOfMagic;
+import net.minecraft.component.DataComponentTypes;
+import net.minecraft.component.type.ContainerComponent;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -41,6 +43,12 @@ public class ModItems {
     public static final Item HEART_OF_GOLD = register("heart_of_gold", HeartItem::new, new Item.Settings());
     public static final Item HEART_OF_THE_MACHINE = register("heart_of_the_machine", HeartItem::new, new Item.Settings());
 
+    public static final Item BAG_OF_HOLDING = register("bag_of_holding", BagOfHoldingItem::new,
+            new Item.Settings()
+                    .maxCount(1)
+                    .component(DataComponentTypes.CONTAINER, ContainerComponent.DEFAULT)
+    );
+
     public static Item register(String name, Function<Item.Settings, Item> itemFactory, Item.Settings settings) {
         // Create the item key
         RegistryKey<Item> itemKey = RegistryKey.of(RegistryKeys.ITEM, Identifier.of(HeartsOfMagic.MOD_ID, name));
@@ -73,6 +81,7 @@ public class ModItems {
             itemGroup.add(ModItems.HEART_OF_LIGHT);
             itemGroup.add(ModItems.HEART_OF_GOLD);
             itemGroup.add(ModItems.HEART_OF_THE_MACHINE);
+            itemGroup.add(ModItems.BAG_OF_HOLDING);
         });
     }
 }

@@ -3,6 +3,7 @@
 	"package": "net.flokes.heartsofmagic.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
+        "EnderChestInventoryMixin",
 		"ExampleMixin",
         "ItemsMixin",
         "PortalRoomMixin"

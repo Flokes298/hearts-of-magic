@@ -8,7 +8,6 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModComponents {
-
     /**
      * OBSOLETE (Frame checks for item itself not this component)
      */
