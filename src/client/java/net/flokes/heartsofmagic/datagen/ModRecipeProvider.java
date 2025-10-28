@@ -29,6 +29,65 @@ public class ModRecipeProvider extends FabricRecipeProvider {
             public void generate() {
                 RegistryWrapper.Impl<Item> itemLookup = registries.getOrThrow(RegistryKeys.ITEM);
 
+                createShapeless(RecipeCategory.MISC, Items.GLOWSTONE_DUST)
+                        .input(ModItems.MORTAR_AND_PESTLE)
+                        .input(Items.GLOW_BERRIES)
+                        .criterion(hasItem(ModItems.MORTAR_AND_PESTLE), conditionsFromItem(ModItems.MORTAR_AND_PESTLE))
+                        .criterion(hasItem(Items.GLOW_BERRIES), conditionsFromItem(Items.GLOW_BERRIES))
+                        .offerTo(exporter);
+
+                createShapeless(RecipeCategory.MISC, ModItems.AMETHYST_DUST)
+                        .input(ModItems.MORTAR_AND_PESTLE)
+                        .input(Items.AMETHYST_SHARD)
+                        .criterion(hasItem(ModItems.MORTAR_AND_PESTLE), conditionsFromItem(ModItems.MORTAR_AND_PESTLE))
+                        .criterion(hasItem(Items.AMETHYST_SHARD), conditionsFromItem(Items.AMETHYST_SHARD))
+                        .offerTo(exporter);
+                createShapeless(RecipeCategory.MISC, ModItems.DIAMOND_DUST)
+                        .input(ModItems.MORTAR_AND_PESTLE)
+                        .input(Items.DIAMOND)
+                        .criterion(hasItem(ModItems.MORTAR_AND_PESTLE), conditionsFromItem(ModItems.MORTAR_AND_PESTLE))
+                        .criterion(hasItem(Items.DIAMOND), conditionsFromItem(Items.DIAMOND))
+                        .offerTo(exporter);
+                createShapeless(RecipeCategory.MISC, ModItems.EMERALD_DUST)
+                        .input(ModItems.MORTAR_AND_PESTLE)
+                        .input(Items.EMERALD)
+                        .criterion(hasItem(ModItems.MORTAR_AND_PESTLE), conditionsFromItem(ModItems.MORTAR_AND_PESTLE))
+                        .criterion(hasItem(Items.EMERALD), conditionsFromItem(Items.EMERALD))
+                        .offerTo(exporter);
+                createShapeless(RecipeCategory.MISC, ModItems.GOLD_DUST)
+                        .input(ModItems.MORTAR_AND_PESTLE)
+                        .input(Items.GOLD_INGOT)
+                        .criterion(hasItem(ModItems.MORTAR_AND_PESTLE), conditionsFromItem(ModItems.MORTAR_AND_PESTLE))
+                        .criterion(hasItem(Items.GOLD_INGOT), conditionsFromItem(Items.GOLD_INGOT))
+                        .offerTo(exporter);
+                createShapeless(RecipeCategory.MISC, ModItems.LAPIS_LAZULI_DUST)
+                        .input(ModItems.MORTAR_AND_PESTLE)
+                        .input(Items.LAPIS_LAZULI)
+                        .criterion(hasItem(ModItems.MORTAR_AND_PESTLE), conditionsFromItem(ModItems.MORTAR_AND_PESTLE))
+                        .criterion(hasItem(Items.LAPIS_LAZULI), conditionsFromItem(Items.LAPIS_LAZULI))
+                        .offerTo(exporter);
+
+                createShapeless(RecipeCategory.MISC, ModItems.MAGIC_DUST)
+                        .input(ModItems.AMETHYST_DUST)
+                        .input(ModItems.DIAMOND_DUST)
+                        .input(ModItems.EMERALD_DUST)
+                        .input(ModItems.GOLD_DUST)
+                        .input(ModItems.LAPIS_LAZULI_DUST)
+                        .input(Items.REDSTONE)
+                        .input(Items.GLOWSTONE_DUST)
+                        .input(Items.BLAZE_POWDER)
+                        .input(Items.BONE_MEAL)
+                        .criterion(hasItem(ModItems.MORTAR_AND_PESTLE), conditionsFromItem(ModItems.MORTAR_AND_PESTLE))
+                        .offerTo(exporter);
+
+
+                createShaped(RecipeCategory.TOOLS, ModItems.MORTAR_AND_PESTLE)
+                        .pattern("  #")
+                        .pattern("###")
+                        .pattern(" # ")
+                        .input('#', ModBlocks.MARBLE)
+                        .criterion(hasItem(ModBlocks.MARBLE), conditionsFromItem(ModBlocks.MARBLE))
+                        .offerTo(exporter);
                 createShapeless(RecipeCategory.TOOLS, ModItems.BAG_OF_HOLDING)
                         .input(ItemTags.BUNDLES)
                         .input(Items.ENDER_EYE)

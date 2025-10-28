@@ -8,7 +8,11 @@
   "block.hearts-of-magic.marble_slab": "Marble Slab",
   "block.hearts-of-magic.marble_stairs": "Marble Stairs",
   "container.bag_of_holding": "Bag of Holding",
+  "item.hearts-of-magic.amethyst_dust": "Amethyst Dust",
   "item.hearts-of-magic.bag_of_holding": "Bag of Holding",
+  "item.hearts-of-magic.diamond_dust": "Diamond Dust",
+  "item.hearts-of-magic.emerald_dust": "Emerald Dust",
+  "item.hearts-of-magic.gold_dust": "Gold Dust",
   "item.hearts-of-magic.heart_of_gold": "Heart of Gold",
   "item.hearts-of-magic.heart_of_ice": "Heart of Ice",
   "item.hearts-of-magic.heart_of_light": "Heart of Light",
@@ -20,6 +24,9 @@
   "item.hearts-of-magic.heart_of_the_nether": "Heart of the Nether",
   "item.hearts-of-magic.heart_of_the_storm": "Heart of the Storm",
   "item.hearts-of-magic.heart_of_the_swamp": "Heart of the Swamp",
+  "item.hearts-of-magic.lapis_lazuli_dust": "Lapis Lazuli Dust",
+  "item.hearts-of-magic.magic_dust": "Magic Dust",
+  "item.hearts-of-magic.mortar_and_pestle": "Mortar & Pestle",
   "item.hearts-of-magic.spellheart": "Spellheart",
   "itemGroup.hearts_of_magic": "Hearts of Magic"
 }

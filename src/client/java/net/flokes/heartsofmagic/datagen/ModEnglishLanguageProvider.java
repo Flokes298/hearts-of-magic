@@ -29,6 +29,15 @@ public class ModEnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.HEART_OF_LIGHT, "Heart of Light");
         translationBuilder.add(ModItems.HEART_OF_GOLD, "Heart of Gold");
         translationBuilder.add(ModItems.HEART_OF_THE_MACHINE, "Heart of the Machine");
+
+        translationBuilder.add(ModItems.AMETHYST_DUST, "Amethyst Dust");
+        translationBuilder.add(ModItems.DIAMOND_DUST, "Diamond Dust");
+        translationBuilder.add(ModItems.EMERALD_DUST, "Emerald Dust");
+        translationBuilder.add(ModItems.GOLD_DUST, "Gold Dust");
+        translationBuilder.add(ModItems.LAPIS_LAZULI_DUST, "Lapis Lazuli Dust");
+        translationBuilder.add(ModItems.MAGIC_DUST, "Magic Dust");
+
+        translationBuilder.add(ModItems.MORTAR_AND_PESTLE, "Mortar & Pestle");
         translationBuilder.add(ModItems.BAG_OF_HOLDING, "Bag of Holding");
 
         translationBuilder.add(ModBlocks.CUSTOM_END_PORTAL_FRAME, "Heart End Portal Frame");

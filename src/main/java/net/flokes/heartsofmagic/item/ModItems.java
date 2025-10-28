@@ -43,6 +43,19 @@ public class ModItems {
     public static final Item HEART_OF_GOLD = register("heart_of_gold", HeartItem::new, new Item.Settings());
     public static final Item HEART_OF_THE_MACHINE = register("heart_of_the_machine", HeartItem::new, new Item.Settings());
 
+
+    public static final Item MORTAR_AND_PESTLE = register("mortar_and_pestle", DurabilityCraftingItem::new,
+            new Item.Settings()
+                    .maxCount(1)
+                    .maxDamage(256)
+    );
+    public static final Item MAGIC_DUST = register("magic_dust", Item::new, new Item.Settings());
+    public static final Item AMETHYST_DUST = register("amethyst_dust", Item::new, new Item.Settings());
+    public static final Item DIAMOND_DUST = register("diamond_dust", Item::new, new Item.Settings());
+    public static final Item EMERALD_DUST = register("emerald_dust", Item::new, new Item.Settings());
+    public static final Item GOLD_DUST = register("gold_dust", Item::new, new Item.Settings());
+    public static final Item LAPIS_LAZULI_DUST = register("lapis_lazuli_dust", Item::new, new Item.Settings());
+
     public static final Item BAG_OF_HOLDING = register("bag_of_holding", BagOfHoldingItem::new,
             new Item.Settings()
                     .maxCount(1)
@@ -81,6 +94,13 @@ public class ModItems {
             itemGroup.add(ModItems.HEART_OF_LIGHT);
             itemGroup.add(ModItems.HEART_OF_GOLD);
             itemGroup.add(ModItems.HEART_OF_THE_MACHINE);
+            itemGroup.add(ModItems.MAGIC_DUST);
+            itemGroup.add(ModItems.MORTAR_AND_PESTLE);
+            itemGroup.add(ModItems.AMETHYST_DUST);
+            itemGroup.add(ModItems.DIAMOND_DUST);
+            itemGroup.add(ModItems.EMERALD_DUST);
+            itemGroup.add(ModItems.GOLD_DUST);
+            itemGroup.add(ModItems.LAPIS_LAZULI_DUST);
             itemGroup.add(ModItems.BAG_OF_HOLDING);
         });
     }

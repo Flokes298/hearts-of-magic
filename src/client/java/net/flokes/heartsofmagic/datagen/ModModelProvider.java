@@ -39,6 +39,14 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.HEART_OF_GOLD, Models.GENERATED);
         itemModelGenerator.register(ModItems.HEART_OF_THE_MACHINE, Models.GENERATED);
 
+        itemModelGenerator.register(ModItems.AMETHYST_DUST, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DIAMOND_DUST, Models.GENERATED);
+        itemModelGenerator.register(ModItems.EMERALD_DUST, Models.GENERATED);
+        itemModelGenerator.register(ModItems.GOLD_DUST, Models.GENERATED);
+        itemModelGenerator.register(ModItems.LAPIS_LAZULI_DUST, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MAGIC_DUST, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.MORTAR_AND_PESTLE, Models.GENERATED);
         itemModelGenerator.register(ModItems.BAG_OF_HOLDING, Models.GENERATED);
     }
 

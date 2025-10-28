@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "hearts-of-magic:amethyst_dust",
+    "hearts-of-magic:diamond_dust",
+    "hearts-of-magic:emerald_dust",
+    "hearts-of-magic:gold_dust",
+    "hearts-of-magic:lapis_lazuli_dust",
+    "minecraft:redstone",
+    "minecraft:glowstone_dust",
+    "minecraft:blaze_powder",
+    "minecraft:bone_meal"
+  ],
+  "result": {
+    "count": 1,
+    "id": "hearts-of-magic:magic_dust"
+  }
+}

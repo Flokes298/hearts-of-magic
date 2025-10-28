@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "hearts-of-magic:mortar_and_pestle",
+    "minecraft:lapis_lazuli"
+  ],
+  "result": {
+    "count": 1,
+    "id": "hearts-of-magic:lapis_lazuli_dust"
+  }
+}

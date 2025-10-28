@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_lapis_lazuli": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:lapis_lazuli"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_mortar_and_pestle": {
+      "conditions": {
+        "items": [
+          {
+            "items": "hearts-of-magic:mortar_and_pestle"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "hearts-of-magic:lapis_lazuli_dust"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_mortar_and_pestle",
+      "has_lapis_lazuli"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "hearts-of-magic:lapis_lazuli_dust"
+    ]
+  }
+}

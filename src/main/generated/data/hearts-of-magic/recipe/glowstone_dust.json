@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "hearts-of-magic:mortar_and_pestle",
+    "minecraft:glow_berries"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:glowstone_dust"
+  }
+}
