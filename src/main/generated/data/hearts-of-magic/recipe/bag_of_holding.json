@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "#minecraft:bundles",
+    "minecraft:ender_eye"
+  ],
+  "result": {
+    "count": 1,
+    "id": "hearts-of-magic:bag_of_holding"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "hearts-of-magic:gilded_marble",
+  "result": {
+    "count": 1,
+    "id": "hearts-of-magic:gilded_marble_stairs"
+  }
+}

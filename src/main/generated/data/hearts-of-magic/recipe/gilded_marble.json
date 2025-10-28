@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "gilded_marble",
+  "key": {
+    "g": "minecraft:gold_nugget",
+    "m": "hearts-of-magic:marble"
+  },
+  "pattern": [
+    "ggg",
+    "gmg",
+    "ggg"
+  ],
+  "result": {
+    "count": 1,
+    "id": "hearts-of-magic:gilded_marble"
+  }
+}

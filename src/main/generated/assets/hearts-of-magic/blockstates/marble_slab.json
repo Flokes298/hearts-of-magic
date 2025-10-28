@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "hearts-of-magic:block/marble_slab"
+    },
+    "type=double": {
+      "model": "hearts-of-magic:block/marble"
+    },
+    "type=top": {
+      "model": "hearts-of-magic:block/marble_slab_top"
+    }
+  }
+}

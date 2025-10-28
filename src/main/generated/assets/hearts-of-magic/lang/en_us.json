@@ -1,6 +1,12 @@
 {
   "block.hearts-of-magic.custom_end_portal_frame": "Heart End Portal Frame",
   "block.hearts-of-magic.custom_end_portal_frame.message": "Requires a %s",
+  "block.hearts-of-magic.gilded_marble": "Gilded Marble",
+  "block.hearts-of-magic.gilded_marble_slab": "Gilded Marble Slab",
+  "block.hearts-of-magic.gilded_marble_stairs": "Gilded Marble Stairs",
+  "block.hearts-of-magic.marble": "Marble",
+  "block.hearts-of-magic.marble_slab": "Marble Slab",
+  "block.hearts-of-magic.marble_stairs": "Marble Stairs",
   "container.bag_of_holding": "Bag of Holding",
   "item.hearts-of-magic.bag_of_holding": "Bag of Holding",
   "item.hearts-of-magic.heart_of_gold": "Heart of Gold",

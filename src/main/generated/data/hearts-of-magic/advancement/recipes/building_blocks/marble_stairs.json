@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_marble": {
+      "conditions": {
+        "items": [
+          {
+            "items": "hearts-of-magic:marble"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "hearts-of-magic:marble_stairs"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_marble"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "hearts-of-magic:marble_stairs"
+    ]
+  }
+}

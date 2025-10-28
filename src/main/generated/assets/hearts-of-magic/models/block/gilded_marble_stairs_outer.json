@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "hearts-of-magic:block/gilded_marble",
+    "side": "hearts-of-magic:block/gilded_marble",
+    "top": "hearts-of-magic:block/gilded_marble"
+  }
+}

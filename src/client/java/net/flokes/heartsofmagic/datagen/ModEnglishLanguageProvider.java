@@ -32,6 +32,12 @@ public class ModEnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.BAG_OF_HOLDING, "Bag of Holding");
 
         translationBuilder.add(ModBlocks.CUSTOM_END_PORTAL_FRAME, "Heart End Portal Frame");
+        translationBuilder.add(ModBlocks.MARBLE, "Marble");
+        translationBuilder.add(ModBlocks.MARBLE_SLAB, "Marble Slab");
+        translationBuilder.add(ModBlocks.MARBLE_STAIRS, "Marble Stairs");
+        translationBuilder.add(ModBlocks.GILDED_MARBLE, "Gilded Marble");
+        translationBuilder.add(ModBlocks.GILDED_MARBLE_SLAB, "Gilded Marble Slab");
+        translationBuilder.add(ModBlocks.GILDED_MARBLE_STAIRS, "Gilded Marble Stairs");
 
         translationBuilder.add("container.bag_of_holding", "Bag of Holding");
 

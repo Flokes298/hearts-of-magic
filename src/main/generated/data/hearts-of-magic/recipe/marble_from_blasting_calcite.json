@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "blocks",
+  "cookingtime": 150,
+  "experience": 0.1,
+  "group": "marble",
+  "ingredient": "minecraft:calcite",
+  "result": {
+    "id": "hearts-of-magic:marble"
+  }
+}
