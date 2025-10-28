@@ -1,7 +1,7 @@
 {
   "type": "minecraft:blasting",
   "category": "blocks",
-  "cookingtime": 150,
+  "cookingtime": 100,
   "experience": 0.1,
   "group": "marble",
   "ingredient": "minecraft:calcite",

@@ -60,8 +60,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.GILDED_MARBLE_SLAB, ModBlocks.GILDED_MARBLE, 2);
                 offerStonecuttingRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.GILDED_MARBLE_STAIRS, ModBlocks.GILDED_MARBLE);
 
-                offerSmelting(List.of(Items.CALCITE), RecipeCategory.BUILDING_BLOCKS, ModBlocks.MARBLE, 0.1f, 300, "marble");
-                offerBlasting(List.of(Items.CALCITE), RecipeCategory.BUILDING_BLOCKS, ModBlocks.MARBLE, 0.1f, 150, "marble");
+                offerSmelting(List.of(Items.CALCITE), RecipeCategory.BUILDING_BLOCKS, ModBlocks.MARBLE, 0.1f, 200, "marble");
+                offerBlasting(List.of(Items.CALCITE), RecipeCategory.BUILDING_BLOCKS, ModBlocks.MARBLE, 0.1f, 100, "marble");
             }
         };
     }
