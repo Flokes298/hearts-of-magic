@@ -3,6 +3,7 @@ package net.flokes.heartsofmagic.item;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.flokes.heartsofmagic.HeartsOfMagic;
+import net.flokes.heartsofmagic.component.ModComponents;
 import net.minecraft.component.DataComponentTypes;
 import net.minecraft.component.type.ContainerComponent;
 import net.minecraft.item.Item;
@@ -60,6 +61,7 @@ public class ModItems {
             new Item.Settings()
                     .maxCount(1)
                     .component(DataComponentTypes.CONTAINER, ContainerComponent.DEFAULT)
+                    .component(ModComponents.OPEN_BAG_COMPONENT, false)
     );
 
     public static Item register(String name, Function<Item.Settings, Item> itemFactory, Item.Settings settings) {

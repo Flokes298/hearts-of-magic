@@ -1,5 +1,6 @@
 package net.flokes.heartsofmagic.component;
 
+import com.mojang.serialization.Codec;
 import net.flokes.heartsofmagic.HeartsOfMagic;
 import net.flokes.heartsofmagic.util.PortalFrameSlottable;
 import net.minecraft.component.ComponentType;
@@ -8,6 +9,11 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModComponents {
+    public static final ComponentType<Boolean> OPEN_BAG_COMPONENT = Registry.register(
+            Registries.DATA_COMPONENT_TYPE,
+            Identifier.of(HeartsOfMagic.MOD_ID, "open_bag_component"),
+            ComponentType.<Boolean>builder().codec(Codec.BOOL).build()
+    );
     /**
      * OBSOLETE (Frame checks for item itself not this component)
      */

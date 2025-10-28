@@ -41,7 +41,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.HEART_OF_THE_MACHINE);
 
         valueLookupBuilder(ModTags.Items.MAGIC_HEARTS)
-                .addTag(ModTags.Items.PORTAL_HEARTS);
+                .addOptionalTag(ModTags.Items.PORTAL_HEARTS);
 
         valueLookupBuilder(ItemTags.PIGLIN_LOVED)
                 .add(ModItems.HEART_OF_GOLD);

@@ -29,8 +29,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.MARBLE_STAIRS)
                 .add(ModBlocks.GILDED_MARBLE)
                 .add(ModBlocks.GILDED_MARBLE_SLAB)
-                .add(ModBlocks.GILDED_MARBLE_STAIRS)
-                .setReplace(false);
+                .add(ModBlocks.GILDED_MARBLE_STAIRS);
 
         valueLookupBuilder(BlockTags.SLABS)
                 .add(ModBlocks.MARBLE_SLAB)

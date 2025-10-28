@@ -1,5 +1,6 @@
 package net.flokes.heartsofmagic.util;
 
+import net.flokes.heartsofmagic.component.ModComponents;
 import net.flokes.heartsofmagic.item.ModItems;
 import net.minecraft.component.DataComponentTypes;
 import net.minecraft.component.type.ContainerComponent;
@@ -33,6 +34,7 @@ public class BagOfHoldingInventory extends SimpleInventory {
     public void onOpen(PlayerEntity player) {
         World world = player.getWorld();
         if (!world.isClient()) {
+            bagOfHoldingStack.set(ModComponents.OPEN_BAG_COMPONENT, true);
             world.playSound(null, player.getX(), player.getY(), player.getZ(), SoundEvents.ITEM_BUNDLE_REMOVE_ONE, SoundCategory.PLAYERS, 1f, 1f);
         }
     }
@@ -41,6 +43,7 @@ public class BagOfHoldingInventory extends SimpleInventory {
     public void onClose(PlayerEntity player) {
         World world = player.getWorld();
         if (!world.isClient()) {
+            bagOfHoldingStack.set(ModComponents.OPEN_BAG_COMPONENT, false);
             world.playSound(null, player.getX(), player.getY(), player.getZ(), SoundEvents.ITEM_BUNDLE_INSERT, SoundCategory.PLAYERS, 1f, 1f);
         }
     }

@@ -5,6 +5,7 @@ import net.fabricmc.api.ModInitializer;
 import net.flokes.heartsofmagic.block.ModBlocks;
 import net.flokes.heartsofmagic.component.ModComponents;
 import net.flokes.heartsofmagic.item.ModItems;
+import net.flokes.heartsofmagic.screen.ModScreenHandlerTypes;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -27,5 +28,6 @@ public class HeartsOfMagic implements ModInitializer {
         ModComponents.initialize();
         ModItems.initialize();
         ModBlocks.initialize();
+        ModScreenHandlerTypes.initialize();
 	}
 }
