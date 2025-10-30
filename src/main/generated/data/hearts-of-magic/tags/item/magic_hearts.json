@@ -1,5 +1,8 @@
 {
   "values": [
-    "#hearts-of-magic:portal_hearts"
+    {
+      "id": "#hearts-of-magic:portal_hearts",
+      "required": false
+    }
   ]
 }

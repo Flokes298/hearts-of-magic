@@ -28,5 +28,17 @@
   "item.hearts-of-magic.magic_dust": "Magic Dust",
   "item.hearts-of-magic.mortar_and_pestle": "Mortar & Pestle",
   "item.hearts-of-magic.spellheart": "Spellheart",
+  "item.minecraft.lingering_potion.effect.enfeeblement": "Lingering Potion of Enfeeblement",
+  "item.minecraft.lingering_potion.effect.haste": "Lingering Potion of Haste",
+  "item.minecraft.lingering_potion.effect.sickness": "Lingering Potion of Sickness",
+  "item.minecraft.lingering_potion.effect.vitality": "Lingering Potion of Vitality",
+  "item.minecraft.potion.effect.enfeeblement": "Potion of Enfeeblement",
+  "item.minecraft.potion.effect.haste": "Potion of Haste",
+  "item.minecraft.potion.effect.sickness": "Potion of Sickness",
+  "item.minecraft.potion.effect.vitality": "Potion of Vitality",
+  "item.minecraft.splash_potion.effect.enfeeblement": "Splash Potion of Enfeeblement",
+  "item.minecraft.splash_potion.effect.haste": "Splash Potion of Haste",
+  "item.minecraft.splash_potion.effect.sickness": "Splash Potion of Sickness",
+  "item.minecraft.splash_potion.effect.vitality": "Splash Potion of Vitality",
   "itemGroup.hearts_of_magic": "Hearts of Magic"
 }

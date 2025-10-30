@@ -48,6 +48,20 @@ public class ModEnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.GILDED_MARBLE_SLAB, "Gilded Marble Slab");
         translationBuilder.add(ModBlocks.GILDED_MARBLE_STAIRS, "Gilded Marble Stairs");
 
+
+        translationBuilder.add("item.minecraft.potion.effect.haste", "Potion of Haste");
+        translationBuilder.add("item.minecraft.potion.effect.vitality", "Potion of Vitality");
+        translationBuilder.add("item.minecraft.potion.effect.enfeeblement", "Potion of Enfeeblement");
+        translationBuilder.add("item.minecraft.potion.effect.sickness", "Potion of Sickness");
+        translationBuilder.add("item.minecraft.splash_potion.effect.haste", "Splash Potion of Haste");
+        translationBuilder.add("item.minecraft.splash_potion.effect.vitality", "Splash Potion of Vitality");
+        translationBuilder.add("item.minecraft.splash_potion.effect.enfeeblement", "Splash Potion of Enfeeblement");
+        translationBuilder.add("item.minecraft.splash_potion.effect.sickness", "Splash Potion of Sickness");
+        translationBuilder.add("item.minecraft.lingering_potion.effect.haste", "Lingering Potion of Haste");
+        translationBuilder.add("item.minecraft.lingering_potion.effect.vitality", "Lingering Potion of Vitality");
+        translationBuilder.add("item.minecraft.lingering_potion.effect.enfeeblement", "Lingering Potion of Enfeeblement");
+        translationBuilder.add("item.minecraft.lingering_potion.effect.sickness", "Lingering Potion of Sickness");
+
         translationBuilder.add("container.bag_of_holding", "Bag of Holding");
 
         translationBuilder.add("block.hearts-of-magic.custom_end_portal_frame.message", "Requires a %s");
